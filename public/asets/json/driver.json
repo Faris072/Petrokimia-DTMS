@@ -1,0 +1,23 @@
+{
+    "data" : [
+        {
+            "no" : 1,
+            "nama-transporter" : "<b>Darius Dimas Gading</b> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>",
+            "kota-alamat" : "<b>Kabupaten Gresik</b> <br> <span class='text-muted'>Jalan Gubeng Airlangga I No.2</span>",
+            "telepon" : "089743572134"
+            
+        },
+        {
+            "no" : 2,
+            "nama-transporter" : "<b>Hasyim Harun</b> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>",
+            "kota-alamat" : "<b>Kabupaten Gresik</b> <br> <span class='text-muted'>Jl. Jenderal Ahmad Yani</span>",
+            "telepon" : "089743572135"
+        },
+        {
+            "no" : 2,
+            "nama-transporter" : "<b>Jonathan Kevin</b> <br> <span class='text-muted'>PT. Javier Mandiri Transportasi</span>",
+            "kota-alamat" : "<b>Kota Surabaya</b> <br> <span class='text-muted'>Jl. Ahmad Yani No.176</span>",
+            "telepon" : "089743572134"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+/* body{
+    background-image:url('/asets/images/login2.svg');
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size: cover;
+} */
+
+.container-fluid{
+    display:flex;
+    height:120vh;
+    background-image:url('/asets/images/login.svg');
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    flex-direction: column;
+}
+
+.form{
+    margin:auto;
+    width: 35vw;
+    box-shadow: 0px 1px 20px rgba(57, 84, 100, 0.4);
+    padding:50px;
+    border-radius:10px;
+    background-color:white;
+}

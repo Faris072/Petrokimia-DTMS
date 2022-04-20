@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "no": 1,
+            "nama gudang": "Gudang Urea 1 B",
+            "kecepatan maksimal": "40 Km/Jam"        
+        },
+        {
+            "no": 2,
+            "nama gudang": "Gudang Phonska Area II",
+            "kecepatan maksimal": "40 Km/Jam"        
+        },
+        {
+            "no": 3,
+            "nama gudang": "Gudang Pool",
+            "kecepatan maksimal": "40 Km/Jam"        
+        }
+    ]
+}
