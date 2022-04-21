@@ -2,43 +2,53 @@
     "data" : [
         {
             "no" : 1,
-            "nama kota" : "Kabupaten Gresik"
+            "nama kota" : "Kabupaten Gresik",
+            "status" : true
         },
         {
             "no" : 2,
-            "nama kota" : "Kabupaten Jember"
+            "nama kota" : "Kabupaten Jember",
+            "status" : true
         },
         {
             "no" : 3,
-            "nama kota" : "Kabupaten Lamongan"
+            "nama kota" : "Kabupaten Lamongan",
+            "status" : true
         },
         {
             "no" : 4,
-            "nama kota" : "Kabupaten Sidoarjo"
+            "nama kota" : "Kabupaten Sidoarjo",
+            "status" : false
         },
         {
             "no" : 5,
-            "nama kota" : "Kabupaten Batu"
+            "nama kota" : "Kabupaten Batu",
+            "status" : true
         },
         {
             "no" : 6,
-            "nama kota" : "Kabupaten Mojokerto"
+            "nama kota" : "Kabupaten Mojokerto",
+            "status" : true
         },
         {
             "no" : 7,
-            "nama kota" : "Kabupaten Malang"
+            "nama kota" : "Kabupaten Malang",
+            "status" : true
         },
         {
             "no" : 8,
-            "nama kota" : "Kabupaten Probolinggo"
+            "nama kota" : "Kabupaten Probolinggo",
+            "status" : false
         },
         {
             "no" : 9,
-            "nama kota" : "Kabupaten Pasuruan"
+            "nama kota" : "Kabupaten Pasuruan",
+            "status" : true
         },
         {
             "no" : 10,
-            "nama kota" : "Kota Surabaya"
+            "nama kota" : "Kota Surabaya",
+            "status" : true
         }
     ]
 }

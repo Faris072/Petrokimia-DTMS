@@ -42,6 +42,10 @@
     <div class="body d-flex">
         <div class="sidebar">
             @include('sidebar')
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
         <div class="content" style="border-radius:10px; overflow-x:hidden;">
             <br>

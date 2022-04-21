@@ -3,20 +3,26 @@
         {
             "no": 1, 
             "transportir": "CV PARAMA MANDIRI", 
-            "asal": "Gudang Urea 1 B <br> Gudang Non Pupuk", 
-            "harga" : "Rp 245.000"
+            "asal": "Gudang Urea 1 B", 
+            "tujuan" : "Gudang Non Pupuk", 
+            "harga" : "Rp 245.000",
+            "status" : true
         },
         {
             "no": 2, 
             "transportir": "CV PARAMA MANDIRI", 
-            "asal": "Gudang Phonska Area II <br> Gudang Pool", 
-            "harga" : "Rp 300.000"
+            "asal": "Gudang Phonska Area II",
+            "tujuan" : "Gudang Pool", 
+            "harga" : "Rp 300.000",
+            "status" : true
         },
         {
             "no": 3, 
             "transportir": "PT Sinar Mulia Bahari", 
-            "asal": "Gudang Urea 1 B <br> Gudang Non Pupuk", 
-            "harga" : "Rp 320.000"
+            "asal": "Gudang Urea 1 B",
+            "tujuan" : "Gudang Non Pupuk", 
+            "harga" : "Rp 320.000",
+            "status" : false
         }
     ]
 }

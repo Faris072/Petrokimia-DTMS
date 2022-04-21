@@ -33,7 +33,7 @@
     
     <div class="container-fluid">
         <div class="logo mb-0 m-auto">
-            <center><img src="/asets/images/petrokimia.svg" class="px-4" alt=""><img src="/asets/images/logo_dtms.svg" class="px-4" alt=""></center>
+            <center><img src="/asets/images/petrokimia.svg" class="px-5" alt=""><img src="/asets/images/logo_dtms.svg" class="px-5" alt=""></center>
         </div>
         <div class="form mt-0">
             <form action="">

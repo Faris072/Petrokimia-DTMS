@@ -60,3 +60,7 @@ body{
 .content-sidebar div ul li ul li a{
     padding-left:40px;
 }
+
+.tabel{
+    overflow:auto;
+}

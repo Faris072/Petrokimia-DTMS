@@ -2,21 +2,30 @@
     "data" : [
         {
             "no" : 1,
-            "merek nopol" : "gambar truk <br> <b>Hino Dutro 110 SD</b> <br> <span style='text-muted'>L 1020 MS</span>",
+            "gambar" : "truk1.svg",
+            "merek" : "Hino Dutro 110 SD",
+            "nopol" : "L 1020 MS",
             "transportir" : "CV PARAMA MANDIRI",
-            "tahun" : 2022
+            "tahun" : 2022,
+            "status" : true
         },
         {
             "no" : 2,
-            "merek nopol" : "gambar truk <br> <b>Hino Dutro 130 HD X-Power</b> <br> <span style='text-muted'>L 9209 AA</span>",
+            "gambar" : "truk2.svg",
+            "merek" : "Hino Dutro 130 HD X-Power",
+            "nopol" : "L 9209 AA",
             "transportir" : "CV PARAMA MANDIRI",
-            "tahun" : 2012
+            "tahun" : 2012,
+            "status" : true
         },
         {
             "no" : 3,
-            "merek nopol" : "gambar truk <br> <b>Hino FLX 260 JW (8x2)</b> <br> <span style='text-muted'>W 1341 RE</span>",
+            "gambar" : "truk3.svg",
+            "merek" : "Hino FLX 260 JW (8x2)",
+            "nopol" : "W 1341 RE",
             "transportir" : "CV PARAMA MANDIRI",
-            "tahun" : 2022
+            "tahun" : 2022,
+            "status" : false
         }
     ]
 }

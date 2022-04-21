@@ -24,9 +24,9 @@
                                         <label for="transportir">Transportir</label>
                                         <select name="" id="transportir" class="form-control">
                                             <option value="" disabled selected>Pilih transportir</option>
-                                            <option value="">CV PARMA MANDIRI</option>
-                                            <option value="">PT. Sinar Mulia Bahari</option>
-                                            <option value="">PT. Jovier Mandiri Transportasi</option>
+                                            <option value="1">CV PARMA MANDIRI</option>
+                                            <option value="2">PT. Sinar Mulia Bahari</option>
+                                            <option value="3">PT. Javier Mandiri Transportasi</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
@@ -46,11 +46,11 @@
                                         <label for="gudangAsal">Gudang Asal</label>
                                         <select name="" id="gudangAsal" class="form-control">
                                             <option value="" selected disabled>Pilih gudang asal</option>
-                                            <option value="">Gudang Urea 1B</option>
-                                            <option value="">Gudang Phonska Area II</option>
-                                            <option value="">Gudang Pool</option>
-                                            <option value="">Gudang Curah 50.000 & ALF3</option>
-                                            <option value="">Gudang Non Pupuk Cair</option>
+                                            <option value="1">Gudang Urea 1B</option>
+                                            <option value="2">Gudang Phonska Area II</option>
+                                            <option value="3">Gudang Pool</option>
+                                            <option value="4">Gudang Curah 50.000 & ALF3</option>
+                                            <option value="5">Gudang Non Pupuk Cair</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
@@ -67,8 +67,10 @@
                                 </div>
                                 <br>
                             </form>
-                            <div class="map" style="width:100%; display:none;">
-                                <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7082723636645!2d112.63380561414732!3d-7.159686572232668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd8011eced8fc3b%3A0xeb3c8b3c8dc30658!2sGudang%20Bayern%20PT%20Petrokimia%20Gresik!5e0!3m2!1sid!2sid!4v1650345722987!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="map" style="width:100%;">
+                                <iframe class="map1" style="display:none;width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7082723636645!2d112.63380561414732!3d-7.159686572232668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd8011eced8fc3b%3A0xeb3c8b3c8dc30658!2sGudang%20Bayern%20PT%20Petrokimia%20Gresik!5e0!3m2!1sid!2sid!4v1650345722987!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe class="map2" style="display:none;width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.492899438812!2d112.70524921414892!3d-7.29838587376878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbaf65f4ff77%3A0xdcde121f4f6cc07b!2sSMB%20TRANS%20-%20Transportasi%20dan%20Logistik!5e0!3m2!1sid!2sid!4v1650506900053!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe class="map3" style="display:none;width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.569857144932!2d114.85946061411413!3d-3.454218542805431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de680de6ea3e777%3A0xa8fed89227544536!2sPt.javier%20Raya%20Mandiri!5e0!3m2!1sid!2sid!4v1650507091041!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -78,7 +80,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="isi">
             <div class="tabel">
@@ -87,17 +88,13 @@
                         <tr border="0">
                             <th border="0">NO</th>
                             <th>TRANSPORTIR</th>
+                            <th></th>
                             <th>ASAL DAN TUJUAN</th>
                             <th>HARGA</th>
                             <th>STATUS</th>
                             <th>AKSI</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>a</td>
-                        </tr>
-                    </tbody>
                 </table>
             </div>
         </div>

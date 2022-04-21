@@ -2,38 +2,51 @@
     "data" : [
         {
             "no" : 1,
-            "nama-username" : "<b>JAYA ANDITAMA</b> <br> <span class='text-muted'>yaja.anditama</span>",
-            "role" : "<span style='color:blue;'>Administrator</span>"
-
+            "nama" : "JAYA ANDITAMA",
+            "username" : "yaja.anditama",
+            "role" : "Administrator",
+            "perusahaan" : null,
+            "status" : true
         },
         {
             "no" : 2,
-            "nama-username" : "<b>Alfin Fadillah</b> <br> <span class='text-muted'>alfinadilah.123</span>",
-            "role" : "<span style='color:orange;'>Order Requester</span>"
-
+            "nama" : "Alfin Fadilla",
+            "username" : "alfinadilah.123",
+            "role" : "Order Requester",
+            "perusahaan" : null,
+            "status" : true
         },
         {
             "no" : 3,
-            "nama-username" : "<b>Radja Dee Hastari</b> <br> <span class='text-muted'>dee.hastari</span>",
-            "role" : "<span style='color:red;'>Control Tower</span>"
-
+            "nama" : "Radja Dee Hastari",
+            "username" : "dee.hastari",
+            "role" : "Control Tower",
+            "perusahaan" : null,
+            "status" : true
         },
         {
             "no" : 4,
-            "nama-username" : "<b>Andhicha Rahayu</b> <br> <span class='text-muted'>icha_rahayu</span>",
-            "role" : "<span style='color:black;'>Driver</span>"
-
+            "nama" : "Andhicha Rahayu",
+            "username" : "icha_rahayu",
+            "role" : "Driver",
+            "perusahaan" : null,
+            "status" : false
         },
         {
             "no" : 5,
-            "nama-username" : "<b>Alrendy Irianto</b> <br> <span class='text-muted'>toalrendy</span>",
-            "role" : "<span style='color:green;'>Transportir</span> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>"
+            "nama" : "Alrendy Irianto",
+            "username" : "toalrendy",
+            "role" : "Transportir",
+            "perusahaan" : "CV PARAMA MANDIRI",
+            "status" : true
         },
         {
             "no" : 6,
-            "nama-username" : "<b>Alrendy Irianto</b> <br> <span class='text-muted'>tooalrendy</span>",
-            "role" : "<span style='color:blue;'>Poolboy</span> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>"
-
+            "nama" : "Alrendy Irianto",
+            "username" : "tooalrendy",
+            "role" : "Poolboy",
+            "perusahaan" : "CV PARAMA MANDIRI",
+            "status" : false
         }
     ]
 }

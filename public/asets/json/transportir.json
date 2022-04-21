@@ -3,20 +3,26 @@
         {
             "no" : 1,
             "pimpinan" : "Moch. Saiful",
-            "perusahaan": "<b>CV PARAMA MANDIRI</b> <br> <span class='text-muted'>Jl. Bali Blok H 15, Gresik</span>",
-            "telepon" : "081274638234"
+            "perusahaan": "CV PARAMA MANDIRI",
+            "alamat": "Jl. Bali Blok H 15, Gresik",
+            "telepon" : "081274638234",
+            "status" : false
         },
         {
             "no" : 2,
             "pimpinan" : "Hilman Irwansyah",
-            "perusahaan": "<b>PT. Sinar Mulia Bahari</b> <br> <span class='text-muted'>Ruko Villa Bukit Mas Blok RM-1 Jl. Abdul Wahab Siamin Dukuh Pakis Surabaya</span>",
-            "telepon" : "081274638235"
+            "perusahaan": "PT. Sinar Mulia Bahari",
+            "alamat": "Ruko Villa Bukit Mas Blok RM-1 Jl. Abdul Wahab Siamin Dukuh Pakis Surabaya",
+            "telepon" : "081274638235",
+            "status" : true
         },
         {
             "no" : 1,
             "pimpinan" : "Moch. Saiful",
-            "perusahaan": "<b>PT. Javier Mandiri Transportasi</b> <br> <span class='text-muted'>Jl. Demak Timur No. 36C Gundih, Kota Surabaya</span>",
-            "telepon" : "081274638234"
+            "perusahaan": "PT. Javier Mandiri Transportasi",
+            "alamat": "Jl. Demak Timur No. 36C Gundih, Kota Surabaya",
+            "telepon" : "081274638234",
+            "status" : true
         }
     ]
 }

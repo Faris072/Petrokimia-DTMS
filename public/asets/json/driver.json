@@ -2,22 +2,31 @@
     "data" : [
         {
             "no" : 1,
-            "nama-transporter" : "<b>Darius Dimas Gading</b> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>",
-            "kota-alamat" : "<b>Kabupaten Gresik</b> <br> <span class='text-muted'>Jalan Gubeng Airlangga I No.2</span>",
-            "telepon" : "089743572134"
+            "nama" : "Darius Dimas Gading",
+            "transporter" : "CV PARAMA MANDIRI",
+            "kota" : "Kabupaten Gresik",
+            "alamat" : "Jalan Gubeng Airlangga I No.2",
+            "telepon" : "089743572134",
+            "status" : true
             
         },
         {
             "no" : 2,
-            "nama-transporter" : "<b>Hasyim Harun</b> <br> <span class='text-muted'>CV PARAMA MANDIRI</span>",
-            "kota-alamat" : "<b>Kabupaten Gresik</b> <br> <span class='text-muted'>Jl. Jenderal Ahmad Yani</span>",
-            "telepon" : "089743572135"
+            "nama" : "Hasyim Harun",
+            "transporter" : "CV PARAMA MANDIRI",
+            "kota" : "Kabupaten Gresik",
+            "alamat" : "Jl. Jenderal Ahmad Yani",
+            "telepon" : "089743572135",
+            "status" : false
         },
         {
             "no" : 2,
-            "nama-transporter" : "<b>Jonathan Kevin</b> <br> <span class='text-muted'>PT. Javier Mandiri Transportasi</span>",
-            "kota-alamat" : "<b>Kota Surabaya</b> <br> <span class='text-muted'>Jl. Ahmad Yani No.176</span>",
-            "telepon" : "089743572134"
+            "nama" : "Jonathan Kevin",
+            "transporter" : "PT. Javier Mandiri Transportasi",
+            "kota" : "Kota Surabaya",
+            "alamat" : "Jl. Ahmad Yani No.176",
+            "telepon" : "089743572134",
+            "status" : true
         }
     ]
 }

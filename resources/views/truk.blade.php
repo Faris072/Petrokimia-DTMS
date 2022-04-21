@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <div class="haraga p-4 m-auto" style="background-color:white; width:75vw; border-radius:10px; overflow:auto;">
+    <div class="haraga p-4 m-auto" style="background-color:white; width:75vw; border-radius:10px; overflow-y:auto; overflow-x:hidden;">
         <div class="judul d-flex mb-5" style="justify-content:space-between;">
             <h3>Data Master Truk</h3>
             <a href="#" class="btn btn-dark p-2 px-4" data-toggle="modal" data-target="#tambahData">Tambah Data</a>
@@ -18,7 +18,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <div class="row">
+                            <div class="row" style="flex-wrap:nowrap;">
                                 <div class="col-md-8">
                                     <form action="">
                                         <label for="transportir">Transportir</label>
@@ -39,8 +39,10 @@
                                 </div>
                                 <br>
                                 <div class="col-md-4">
-                                    <label for="foto">Foto Truk</label>
-                                    <img src="" alt="">
+                                    <label for="foto">Foto Truk
+                                        <img src="/asets/images/inputtruk.png" alt="">
+                                    </label>
+                                    <input type="file" id="foto" style="visibility:hidden;">
                                 </div>
                             </div>
                         </div>
@@ -59,6 +61,7 @@
                     <thead>
                         <tr border="0">
                             <th border="0">NO</th>
+                            <th></th>
                             <th>MEREK-NOPOL</th>
                             <th>TRANSPORTIR</th>
                             <th>TAHUN</th>
@@ -79,7 +82,7 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="row">
+                                <div class="row" style="flex-wrap:nowrap; overflow:auto;">
                                     <div class="col-md-8">
                                         <form action="">
                                             <label for="transportir">Transportir</label>
@@ -104,8 +107,10 @@
                                     </div>
                                     <br>
                                     <div class="col-md-4">
-                                        <label for="foto">Foto Truk</label>
-                                        <img src="" alt="">
+                                        <label for="foto">Foto Truk
+                                            <img src="/asets/images/inputtruk.png" alt="">
+                                        </label>
+                                        <input type="file" id="foto" style="visibility:hidden;">
                                     </div>
                                 </div>
                             </div>
