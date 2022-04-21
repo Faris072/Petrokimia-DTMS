@@ -12,7 +12,7 @@
                 <div class="modal-dialog modal-lg" style="overflow:auto" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Edit Data Driver</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Tambah Data Users</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -20,40 +20,59 @@
                         <div class="modal-body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="transportir">Transportir</label>
-                                    <select name="" id="transportir" class="form-control">
-                                        <option value="">CV PARAMA MANDIRI</option>
-                                    </select>
+                                    <label for="namaPengguna">Nama Pengguna</label>
+                                    <input type="text" id="namaPengguna" class="form-control"
+                                        placeholder="Cth: Lukman Hasyim">
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="namaDriver">Nama Driver</label>
-                                    <input type="text" id="namaDriver" class="form-control"
-                                        placeholder="Cth: Lukman Hisyam">
+                                    <label for="username">User Name</label>
+                                    <input type="text" id="username" class="form-control"
+                                        placeholder="Cth: lukman.hasyim">
                                 </div>
                             </div>
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="telepon">Telepon</label>
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fas fa-phone"></i></div>
-                                        </div>
-                                        <input type="number" class="form-control" id="input-harga"
-                                            placeholder="Cth: 085706389042">
-                                    </div>
+                                    <label for="namaPengguna">Role</label>
+                                    <select name="role" id="role" class="form-control" placeholder="Pilih Role">
+                                        <option value="" selected="selected" disabled="disabled">Pilih role</option>
+                                        <option value="Order Requester">Order Requester</option>
+                                        <option value="Control Tower">Control Tower</option>
+                                        <option value="Driver">Driver</option>
+                                        <option value="Transportir">Transportir</option>
+                                        <option value="Poolboy">Poolboy</option>
+                                    </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="kota">Kota</label>
-                                    <select name="" id="kota" class="form-control">
-                                        <option value="">Kota Surabaya</option>
+                                    <label for="transportir">Transportir</label>
+                                    <select name="" id="transportirChange" class="form-control" placeholder="Pilih Role"
+                                        disabled="disabled">
+                                        <option value="" selected="selected" disabled="disabled">Pilih role dulu</option>
+                                        <option value="">CV PARAMA MANDIRI</option>
+                                        <option value="">PT. Sinar Mulia Bahari</option>
+                                        <option value="">PT. Javier Mandiri Transportasi</option>
                                     </select>
                                 </div>
                             </div>
                             <br>
-                            <label for="alamat">Alamat</label>
-                            <textarea name="" id="" rows="5" class="form-control"
-                                placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="sandi">Sandi (Opsional)</label>
+                                    <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                    <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="confirmSandi">Konfirmasi Sandi (Opsional)</label>
+                                    <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                    <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="sandiDefault">
+                                <span>Sandi Default:</span>
+                                <br>
+                                <h3><span style="color:green;"><b>Dtms12345</b></span></h3>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
@@ -82,7 +101,7 @@
                     <div class="modal-dialog modal-lg" style="overflow:auto" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Edit Data Driver</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Edit Data Users</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -90,40 +109,60 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="transportir">Transportir</label>
-                                        <select name="" id="transportir" class="form-control">
-                                            <option value="">CV PARAMA MANDIRI</option>
-                                        </select>
+                                        <label for="namaPengguna">Nama Pengguna</label>
+                                        <input type="text" id="namaPengguna" class="form-control"
+                                            placeholder="Cth: Lukman Hasyim">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="namaDriver">Nama Driver</label>
-                                        <input type="text" id="namaDriver" class="form-control"
-                                            placeholder="Cth: Lukman Hisyam">
+                                        <label for="username">User Name</label>
+                                        <input type="text" id="username" class="form-control"
+                                            placeholder="Cth: lukman.hasyim">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="telepon">Telepon</label>
-                                        <div class="input-group mb-2">
-                                            <div class="input-group-prepend">
-                                                <div class="input-group-text"><i class="fas fa-phone"></i></div>
-                                            </div>
-                                            <input type="number" class="form-control" id="input-harga"
-                                                placeholder="Cth: 085706389042">
-                                        </div>
+                                        <label for="namaPengguna">Role</label>
+                                        <select name="role" id="role" class="form-control" placeholder="Pilih Role">
+                                            <option value="" selected="selected" disabled="disabled">Pilih role</option>
+                                            <option value="Order Requester">Order Requester</option>
+                                            <option value="Control Tower">Control Tower</option>
+                                            <option value="Driver">Driver</option>
+                                            <option value="Transportir">Transportir</option>
+                                            <option value="Poolboy">Poolboy</option>
+                                        </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="kota">Kota</label>
-                                        <select name="" id="kota" class="form-control">
-                                            <option value="">Kota Surabaya</option>
+                                        <label for="transportir">Transportir</label>
+                                        <select name="" id="transportirChange" class="form-control"
+                                            placeholder="Pilih Role" disabled="disabled">
+                                            <option value="" selected="selected" disabled="disabled">Pilih role dulu
+                                            </option>
+                                            <option value="">CV PARAMA MANDIRI</option>
+                                            <option value="">PT. Sinar Mulia Bahari</option>
+                                            <option value="">PT. Javier Mandiri Transportasi</option>
                                         </select>
                                     </div>
                                 </div>
                                 <br>
-                                <label for="alamat">Alamat</label>
-                                <textarea name="" id="" rows="5" class="form-control"
-                                    placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="sandi">Sandi (Opsional)</label>
+                                        <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                        <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="confirmSandi">Konfirmasi Sandi (Opsional)</label>
+                                        <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                        <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <div class="sandiDefault">
+                                    <span>Sandi Default:</span>
+                                    <br>
+                                    <h3><span style="color:green;"><b>Dtms12345</b></span></h3>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>

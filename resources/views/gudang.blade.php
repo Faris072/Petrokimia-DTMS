@@ -21,13 +21,13 @@
                             <form action="">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="transportir">Nama Gudang</label>
-                                        <input type="text" class="form-control" placeholder="Masukkan nama gudang">
+                                        <label for="namaGudang">Nama Gudang</label>
+                                        <input type="text" id="namaGudang" class="form-control" placeholder="Masukkan nama gudang">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="inlineFormInputGroup">Kecepatan Maksimal Truk</label>
+                                        <label for="kecepatanMaksimal">Kecepatan Maksimal Truk</label>
                                         <div class="input-group mb-2">
-                                            <input type="number" class="form-control" id="input-harga"
+                                            <input type="number" id="kecepatanMaksimal" class="form-control" id="input-harga"
                                                 placeholder="Masukkan kecepatan maksimal">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text">Km/Jam</div>
@@ -54,12 +54,12 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="lokasiGudang">Lokasi Gudang</label>
-                                        <input type="text" class="form-control" placeholder="Latitude">
+                                        <input type="text" id="lokasiGudang" class="form-control" placeholder="Latitude">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="" style="visibility: hidden;">p</label>
-                                        <input type="text" class="form-control" placeholder="Latitude">
-                                        <span class="text-muted">Latitude terisi otomatis</span>
+                                        <input type="text" id="longitude" class="form-control" placeholder="Latitude">
+                                        <span class="text-muted">Longitude terisi otomatis</span>
                                     </div>
                                 </div>
                                 <br>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Save</button>
                         </div>
                     </div>
                 </div>
@@ -109,14 +109,14 @@
                                 <form action="">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <label for="transportir">Nama Gudang</label>
-                                            <input type="text" class="form-control"
+                                            <label for="namaGudang2">Nama Gudang</label>
+                                            <input type="text" id="namaGudang2" class="form-control"
                                                 placeholder="Masukkan nama gudang">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inlineFormInputGroup">Kecepatan Maksimal Truk</label>
+                                            <label for="kecepatanMaksimal2">Kecepatan Maksimal Truk</label>
                                             <div class="input-group mb-2">
-                                                <input type="number" class="form-control" id="input-harga"
+                                                <input type="number" class="form-control" id="kecepatanMaksimal2"
                                                     placeholder="Masukkan kecepatan maksimal">
                                                 <div class="input-group-prepend">
                                                     <div class="input-group-text">Km/Jam</div>
@@ -127,15 +127,15 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <label for="beachonCheckPoint">ID Beacon Check Point</label>
-                                            <input type="number" id="beachonCheckPoint" class="form-control"
+                                            <label for="beachonCheckPoint2">ID Beacon Check Point</label>
+                                            <input type="number" id="beachonCheckPoint2" class="form-control"
                                                 placeholder="Cth: 12341">
                                             <span class="text-muted">Deteksi truk sudah masuk area
                                                 gudang</span>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="beaconEntryPoint">ID Beacon Entry Point</label>
-                                            <input type="number" id="beaconEntryPoint" class="form-control"
+                                            <label for="beaconEntryPoint2">ID Beacon Entry Point</label>
+                                            <input type="number" id="beaconEntryPoint2" class="form-control"
                                                 placeholder="Cth: 12341">
                                             <span class="text-muted">Deteksi truk sudah jalan menuju
                                                 gudang</span>
@@ -144,12 +144,12 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <label for="lokasiGudang">Lokasi Gudang</label>
+                                            <label for="lokasiGudang2">Lokasi Gudang</label>
                                             <input type="text" class="form-control" placeholder="Latitude">
                                         </div>
                                         <div class="col-md-6">
                                             <label for="" style="visibility: hidden;">p</label>
-                                            <input type="text" class="form-control" placeholder="Latitude">
+                                            <input type="text" id="longitude2" class="form-control" placeholder="Latitude">
                                             <span class="text-muted">Latitude terisi otomatis</span>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary"
                                     data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-primary" id="save">Save</button>
                             </div>
                         </div>
                     </div>

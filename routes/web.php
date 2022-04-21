@@ -27,7 +27,7 @@ Route::get('/gudang', function (){
     return view('gudang',[
         'title' => 'gudang',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'gudang.js'
     ]);
 });
 
@@ -35,7 +35,7 @@ Route::get('/truk', function(){
     return view('truk',[
         'title' => 'truk',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'truk.js'
     ]);
 });
 
@@ -43,7 +43,7 @@ Route::get('/driver', function(){
     return view('driver',[
         'title' => 'driver',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'driver.js'
     ]);
 });
 
@@ -51,7 +51,7 @@ Route::get('/transportir', function(){
     return view('transportir',[
         'title' => 'transportir',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'transportir.js'
     ]);
 });
 
@@ -59,7 +59,7 @@ Route::get('/kota', function(){
     return view('kota',[
         'title' => 'kota',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'kota.js'
     ]);
 });
 
@@ -67,7 +67,7 @@ Route::get('/users', function(){
     return view('users',[
         'title' => 'users',
         'css' => 'hrg.css',
-        'js' => 'hrg.js'
+        'js' => 'users.js'
     ]);
 });
 

@@ -15,3 +15,18 @@ $("#transportir").on('change',function(){
         $('.map3').fadeIn('slow');
     }
 });
+
+$('#simpan').on('click',function(){
+    let transportir = $('#transportir').val();
+    let harga = $('#input-harga').val();
+    let gudangAsal = $('#gudangAsal').val();
+    let gudangTujuan = $('#gudangTujuan').val();
+
+    if(transportir == null || harga.length < 1 || gudangAsal == null || gudangTujuan == null){
+        swal("Please Enter!", "Form tidak boleh kosong!", "warning");
+    }
+    else{
+        $('#tambahData').modal('hide');
+        swal("Berhasil!", "Data telah disimpan!", "success");
+    }
+});

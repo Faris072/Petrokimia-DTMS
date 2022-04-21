@@ -45,18 +45,18 @@
                                     <div class="col-md-6">
                                         <label for="gudangAsal">Gudang Asal</label>
                                         <select name="" id="gudangAsal" class="form-control">
-                                            <option value="" selected disabled>Pilih gudang asal</option>
-                                            <option value="1">Gudang Urea 1B</option>
-                                            <option value="2">Gudang Phonska Area II</option>
-                                            <option value="3">Gudang Pool</option>
-                                            <option value="4">Gudang Curah 50.000 & ALF3</option>
-                                            <option value="5">Gudang Non Pupuk Cair</option>
+                                            <option value="0" selected disabled>Pilih gudang asal</option>
+                                            <option value="Gudang Urea 1B">Gudang Urea 1B</option>
+                                            <option value="Gudang Phonska Area II">Gudang Phonska Area II</option>
+                                            <option value="Gudang Pool">Gudang Pool</option>
+                                            <option value="Gudang Curah">Gudang Curah 50.000 & ALF3</option>
+                                            <option value="Gudang Non Pupuk Cair">Gudang Non Pupuk Cair</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="gudangAsal">Gudang Tujuan</label>
-                                        <select name="" id="gudangAsal" class="form-control">
-                                            <option value="" selected disabled>Pilih gudang tujuan</option>
+                                        <label for="gudangTujuan">Gudang Tujuan</label>
+                                        <select name="" id="gudangTujuan" class="form-control">
+                                            <option value="0" selected disabled>Pilih gudang tujuan</option>
                                             <option value="">Gudang Urea 1B</option>
                                             <option value="">Gudang Phonska Area II</option>
                                             <option value="">Gudang Pool</option>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Save</button>
                         </div>
                     </div>
                 </div>
