@@ -33,7 +33,7 @@
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="namaPengguna">Role</label>
+                                    <label for="role">Role</label>
                                     <select name="role" id="role" class="form-control" placeholder="Pilih Role">
                                         <option value="" selected="selected" disabled="disabled">Pilih role</option>
                                         <option value="Order Requester">Order Requester</option>
@@ -44,13 +44,13 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="transportir">Transportir</label>
+                                    <label for="transportirChange">Transportir</label>
                                     <select name="" id="transportirChange" class="form-control" placeholder="Pilih Role"
                                         disabled="disabled">
                                         <option value="" selected="selected" disabled="disabled">Pilih role dulu</option>
-                                        <option value="">CV PARAMA MANDIRI</option>
-                                        <option value="">PT. Sinar Mulia Bahari</option>
-                                        <option value="">PT. Javier Mandiri Transportasi</option>
+                                        <option value="CV PARAMA MANDIRI">CV PARAMA MANDIRI</option>
+                                        <option value="PT. Sinar Mulia Bahari">PT. Sinar Mulia Bahari</option>
+                                        <option value="PT. Javier Mandiri">PT. Javier Mandiri Transportasi</option>
                                     </select>
                                 </div>
                             </div>
@@ -58,12 +58,12 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="sandi">Sandi (Opsional)</label>
-                                    <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                    <input type="password" id="sandi" class="form-control" placeholder="Masukkan sandi">
                                     <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="confirmSandi">Konfirmasi Sandi (Opsional)</label>
-                                    <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                    <input type="password" id="confirmSandi" class="form-control" placeholder="Masukkan sandi">
                                     <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
                                 </div>
                             </div>
@@ -71,12 +71,12 @@
                             <div class="sandiDefault">
                                 <span>Sandi Default:</span>
                                 <br>
-                                <h3><span style="color:green;"><b>Dtms12345</b></span></h3>
+                                <h3><span style="color:green;" id="sandiDefault"><b>Dtms12345</b></span></h3>
                             </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                            <button type="button" class="btn btn-primary">Simpan</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Simpan</button>
                         </div>
                     </div>
                 </div>
@@ -109,21 +109,21 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="namaPengguna">Nama Pengguna</label>
-                                        <input type="text" id="namaPengguna" class="form-control"
+                                        <label for="namaPengguna2">Nama Pengguna</label>
+                                        <input type="text" id="namaPengguna2" class="form-control"
                                             placeholder="Cth: Lukman Hasyim">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="username">User Name</label>
-                                        <input type="text" id="username" class="form-control"
+                                        <label for="username2">User Name</label>
+                                        <input type="text" id="username2" class="form-control"
                                             placeholder="Cth: lukman.hasyim">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="namaPengguna">Role</label>
-                                        <select name="role" id="role" class="form-control" placeholder="Pilih Role">
+                                        <label for="role2">Role</label>
+                                        <select name="role" id="role2" class="form-control" placeholder="Pilih Role">
                                             <option value="" selected="selected" disabled="disabled">Pilih role</option>
                                             <option value="Order Requester">Order Requester</option>
                                             <option value="Control Tower">Control Tower</option>
@@ -133,40 +133,40 @@
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="transportir">Transportir</label>
-                                        <select name="" id="transportirChange" class="form-control"
+                                        <label for="transportirChange2">Transportir</label>
+                                        <select name="" id="transportirChange2" class="form-control"
                                             placeholder="Pilih Role" disabled="disabled">
                                             <option value="" selected="selected" disabled="disabled">Pilih role dulu
                                             </option>
-                                            <option value="">CV PARAMA MANDIRI</option>
-                                            <option value="">PT. Sinar Mulia Bahari</option>
-                                            <option value="">PT. Javier Mandiri Transportasi</option>
+                                            <option value="CV PARAMA MANDIRI">CV PARAMA MANDIRI</option>
+                                            <option value="PT. Sinar Mulia Bahari">PT. Sinar Mulia Bahari</option>
+                                            <option value="PT. Javier Mandiri Trasportasi">PT. Javier Mandiri Transportasi</option>
                                         </select>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="sandi">Sandi (Opsional)</label>
-                                        <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                        <label for="sandi2">Sandi (Opsional)</label>
+                                        <input type="password" id="sandi2" class="form-control" placeholder="Masukkan sandi">
                                         <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="confirmSandi">Konfirmasi Sandi (Opsional)</label>
-                                        <input type="password" class="form-control" placeholder="Masukkan sandi">
+                                        <label for="confirmSandi2">Konfirmasi Sandi (Opsional)</label>
+                                        <input type="password" id="confirmSandi2" class="form-control" placeholder="Masukkan sandi">
                                         <small class="text-muted">Jika dikosongi akan menggunakan sandi default.</small>
                                     </div>
                                 </div>
                                 <br><br>
-                                <div class="sandiDefault">
+                                <div class="sandiDefault2">
                                     <span>Sandi Default:</span>
                                     <br>
-                                    <h3><span style="color:green;"><b>Dtms12345</b></span></h3>
+                                    <h3><span style="color:green;" id="sandiDefault2"><b>Dtms12345</b></span></h3>
                                 </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                                <button type="button" class="btn btn-primary">Simpan</button>
+                                <button type="button" class="btn btn-primary" id="save">Simpan</button>
                             </div>
                         </div>
                     </div>

@@ -250,9 +250,14 @@ $('#data-table-users').DataTable({
     ]
 });
 
-$(".switch").on('click',function(){
-    $(this).toggleClass("switchOn");
-});
 
+//event dataTable
+$('.table').on('draw.dt',function(){
+    $(".switch").on('click',function(){
+        $(this).toggleClass("switchOn");
+    });
+    $('.paginate_button.current').css({'background-color' : 'black', 'color' : 'white'});
+});
+    
 
 

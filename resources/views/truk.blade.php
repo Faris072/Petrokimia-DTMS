@@ -40,7 +40,7 @@
                                 <br>
                                 <div class="col-md-4">
                                     <label for="foto">Foto Truk
-                                        <img src="/asets/images/inputtruk.png" alt="">
+                                        <img src="/asets/images/inputtruk.png" id="display-foto" alt="">
                                     </label>
                                     <input type="file" id="foto" style="visibility:hidden;">
                                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Save</button>
                         </div>
                     </div>
                 </div>
@@ -85,39 +85,39 @@
                                 <div class="row" style="flex-wrap:nowrap; overflow:auto;">
                                     <div class="col-md-8">
                                         <form action="">
-                                            <label for="transportir">Transportir</label>
-                                            <select name="" id="transportir" class="form-control">
+                                            <label for="transportir2">Transportir</label>
+                                            <select name="" id="transportir2" class="form-control">
                                                 <option value=""><span class="text-muted">Pilih
                                                         Transportir</span></option>
                                                 <option value="">CV PARMA MANDIRI</option>
                                             </select>
                                             <br>
-                                            <label for="merek">Merek</label>
-                                            <input type="text" placeholder="Cth:Hino" id="merek"
+                                            <label for="merek2">Merek</label>
+                                            <input type="text" placeholder="Cth:Hino" id="merek2"
                                                 class="form-control">
                                             <br>
-                                            <label for="nopol">Nopol</label>
-                                            <input type="text" placeholder="Cth: L1239 LL" id="nopol"
+                                            <label for="nopol2">Nopol</label>
+                                            <input type="text" placeholder="Cth: L1239 LL" id="nopol2"
                                                 class="form-control">
                                             <br>
-                                            <label for="tahun">Tahun</label>
-                                            <input type="number" placeholder="Cth: 2022" id="tahun"
+                                            <label for="tahun2">Tahun</label>
+                                            <input type="number" placeholder="Cth: 2022" id="tahun2"
                                                 class="form-control">
                                         </form>
                                     </div>
                                     <br>
                                     <div class="col-md-4">
-                                        <label for="foto">Foto Truk
-                                            <img src="/asets/images/inputtruk.png" alt="">
+                                        <label for="foto2">Foto Truk
+                                            <img src="/asets/images/inputtruk.png" alt="" id="display-foto2">
                                         </label>
-                                        <input type="file" id="foto" style="visibility:hidden;">
+                                        <input type="file" id="foto2" style="visibility:hidden;">
                                     </div>
                                 </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary"
                                     data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save</button>
+                                <button type="button" class="btn btn-primary" id="save">Save</button>
                             </div>
                         </div>
                     </div>

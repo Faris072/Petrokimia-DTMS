@@ -35,7 +35,7 @@ Route::get('/truk', function(){
     return view('truk',[
         'title' => 'truk',
         'css' => 'hrg.css',
-        'js' => 'truk.js'
+        'js' => 'truks.js'
     ]);
 });
 

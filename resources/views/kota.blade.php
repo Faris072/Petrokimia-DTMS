@@ -19,12 +19,12 @@
                         </div>
                         <div class="modal-body">
                             <label for="namaKota">Nama Kota</label>
-                            <input type="text" id="namaKota" id="namaKota" class="form-control"
+                            <input type="text" id="namaKota" class="form-control"
                                 placeholder="Cth: Kota Surabaya">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                            <button type="button" class="btn btn-primary">Simpan</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Simpan</button>
                         </div>
                     </div>
                 </div>
@@ -56,12 +56,12 @@
                             </div>
                             <div class="modal-body">
                                 <label for="namaKota">Nama Kota</label>
-                                <input type="text" id="namaKota" id="namaKota" class="form-control"
+                                <input type="text" id="namaKota2" class="form-control"
                                     placeholder="Cth: Kota Surabaya">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                                <button type="button" class="btn btn-primary">Simpan</button>
+                                <button type="button" class="btn btn-primary" id="save">Simpan</button>
                             </div>
                         </div>
                     </div>

@@ -36,7 +36,7 @@
             <center><img src="/asets/images/petrokimia.svg" class="px-5" alt=""><img src="/asets/images/logo_dtms.svg" class="px-5" alt=""></center>
         </div>
         <div class="form mt-0">
-            <form action="">
+            <form action="/harga">
                 <center><h3><b>Masuk ke Akun</b></h3></center>
                 <center><p class="text-muted">Masukkan username dan password</p></center>
                 <br>

@@ -64,3 +64,13 @@ body{
 .tabel{
     overflow:auto;
 }
+
+.tabel .paginate_button:hover{
+    background-color:black;
+    color:white;
+}
+
+.tabel .paginate_button{
+    background-color:black;
+    color:white;
+}

@@ -35,19 +35,19 @@
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fas fa-phone"></i></div>
                                         </div>
-                                        <input type="number" class="form-control" id="input-harga"
+                                        <input type="number" class="form-control" id="telepon"
                                             placeholder="Cth: 085706389042">
                                     </div>
                                 </div>
                             </div>
                             <br>
                             <label for="alamat">Alamat</label>
-                            <textarea name="" id="" rows="5" class="form-control"
+                            <textarea name="" id="alamat" rows="5" class="form-control"
                                 placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                            <button type="button" class="btn btn-primary">Simpan</button>
+                            <button type="button" class="btn btn-primary" id="simpan">Simpan</button>
                         </div>
                     </div>
                 </div>
@@ -82,34 +82,34 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <label for="pimpinan">Nama Pimpinan</label>
-                                        <input type="text" id="pimpinan" placeholder="Cth: Lukman Hasyim"
+                                        <label for="pimpinan2">Nama Pimpinan</label>
+                                        <input type="text" id="pimpinan2" placeholder="Cth: Lukman Hasyim"
                                             class="form-control">
                                     </div>
                                     <div class="col-md-4">
-                                        <label for="perusahaan">Nama Perusahaan</label>
-                                        <input type="text" id="perusahaan" placeholder="Cth: PT Transportasi"
+                                        <label for="perusahaan2">Nama Perusahaan</label>
+                                        <input type="text" id="perusahaan2" placeholder="Cth: PT Transportasi"
                                             class="form-control">
                                     </div>
                                     <div class="col-md-4">
-                                        <label for="telepon">Telepon</label>
+                                        <label for="telepon2">Telepon</label>
                                         <div class="input-group mb-2">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text"><i class="fas fa-phone"></i></div>
                                             </div>
-                                            <input type="number" class="form-control" id="input-harga"
+                                            <input type="number" class="form-control" id="telepon2"
                                                 placeholder="Cth: 085706389042">
                                         </div>
                                     </div>
                                 </div>
                                 <br>
                                 <label for="alamat">Alamat</label>
-                                <textarea name="" id="" rows="5" class="form-control"
+                                <textarea name="" id="alamat2" rows="5" class="form-control"
                                     placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                                <button type="button" class="btn btn-primary">Simpan</button>
+                                <button type="button" class="btn btn-primary" id="save">Simpan</button>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@
             <div class="modal-dialog modal-lg" style="overflow:auto" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Edit Data Driver</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Tambah Data Driver</h5>
                         <button type="button" class="close" data-dismiss="modal"
                             aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -39,7 +39,7 @@
                                     <div class="input-group-prepend">
                                         <div class="input-group-text"><i class="fas fa-phone"></i></div>
                                     </div>
-                                    <input type="number" class="form-control" id="input-harga" placeholder="Cth: 085706389042">
+                                    <input type="number" class="form-control" id="telepon" placeholder="Cth: 085706389042">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -51,12 +51,12 @@
                         </div>
                         <br>
                         <label for="alamat">Alamat</label>
-                        <textarea name="" id="" rows="5" class="form-control" placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
+                        <textarea name="" id="alamat" rows="5" class="form-control" placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary"
                             data-dismiss="modal">Batal</button>
-                        <button type="button" class="btn btn-primary">Simpan</button>
+                        <button type="button" class="btn btn-primary" id="simpan">Simpan</button>
                     </div>
                 </div>
             </div>
@@ -92,42 +92,42 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="transportir">Transportir</label>
-                                        <select name="" id="transportir" class="form-control">
+                                        <label for="transportir2">Transportir</label>
+                                        <select name="" id="transportir2" class="form-control">
                                             <option value="">CV PARAMA MANDIRI</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="namaDriver">Nama Driver</label>
-                                        <input type="text" id="namaDriver" class="form-control" placeholder="Cth: Lukman Hisyam">
+                                        <label for="namaDriver2">Nama Driver</label>
+                                        <input type="text" id="namaDriver2" class="form-control" placeholder="Cth: Lukman Hisyam">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label for="telepon">Telepon</label>
+                                        <label for="telepon2">Telepon</label>
                                         <div class="input-group mb-2">
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text"><i class="fas fa-phone"></i></div>
                                             </div>
-                                            <input type="number" class="form-control" id="input-harga" placeholder="Cth: 085706389042">
+                                            <input type="number" class="form-control" id="telepon2" placeholder="Cth: 085706389042">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="kota">Kota</label>
-                                        <select name="" id="kota" class="form-control">
+                                        <label for="kota2">Kota</label>
+                                        <select name="" id="kota2" class="form-control">
                                             <option value="">Kota Surabaya</option>
                                         </select>
                                     </div>
                                 </div>
                                 <br>
-                                <label for="alamat">Alamat</label>
-                                <textarea name="" id="" rows="5" class="form-control" placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
+                                <label for="alamat2">Alamat</label>
+                                <textarea name="" id="alamat2" rows="5" class="form-control" placeholder="Cth: Jl. Jenderal Ahmad Yani - Gresik 61119"></textarea>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary"
                                     data-dismiss="modal">Batal</button>
-                                <button type="button" class="btn btn-primary">Simpan</button>
+                                <button type="button" class="btn btn-primary" id="save">Simpan</button>
                             </div>
                         </div>
                     </div>
