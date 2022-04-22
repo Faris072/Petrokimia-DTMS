@@ -1,5 +1,13 @@
 $('#data-table-harga').DataTable({
     'ajax' : '/asets/json/harga.json',
+    // 'pagingType' : 'simple',
+    // // oLanguage : {
+    // //     oPaginate : {
+    // //         sNext : '<span class="p-2 px-3 pagin" style="background-color:lightblue; border-radius:5px;"><i class="fas fa-angle-double-right"></i></span>',
+    // //         sPrevious : '<span class="p-2 px-3 pagin" style="background-color:lightblue; border-radius:5px;"><i class="fas fa-angle-double-left"></i></span>',
+    // //         sCurrent : 's'
+    // //     }
+    // // },
     'columnDefs' : [{
         "defaultContent": "-", //ketika bernilai null maka akan terisi "-"
         "targets": "_all" //berlaku untuk semua baris dan kolom
@@ -258,6 +266,4 @@ $('.table').on('draw.dt',function(){
     });
     $('.paginate_button.current').css({'background-color' : 'black', 'color' : 'white'});
 });
-    
-
 

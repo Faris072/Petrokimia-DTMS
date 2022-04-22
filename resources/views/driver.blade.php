@@ -65,7 +65,7 @@
         </div>
         <div class="isi">
             <div class="tabel">
-                <table id="data-table-driver" class="table table-bordered" border="0">
+                <table id="data-table-driver" class="table table-bordered hover" border="0">
                     <thead>
                         <tr border="0">
                             <th border="0">NO</th>
