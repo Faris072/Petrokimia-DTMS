@@ -65,12 +65,8 @@ body{
     overflow:auto;
 }
 
-.tabel .paginate_button:hover{
-    background-color:black;
-    color:white;
-}
 
-.tabel .paginate_button{
-    background-color:black;
-    color:white;
+.pagin{
+    color:white !important;
+    background:black;
 }

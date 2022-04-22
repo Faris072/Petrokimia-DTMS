@@ -29,3 +29,23 @@ $('#save').on('click',function(){
         swal("Berhasil!", "Data telah disimpan!", "success");
     }
 });
+
+$('#foto').on('change',function(){
+    let images = document.querySelector('#foto');
+    let previews = document.querySelector('#display-foto');
+    let oFReader = new FileReader();
+    oFReader.readAsDataURL(images.files[0]);
+    oFReader.onload = function (oFREvent) {
+        previews.src = oFREvent.target.result;
+    }
+});
+
+$('#foto2').on('change',function(){
+    let images = document.querySelector('#foto2');
+    let previews = document.querySelector('#display-foto2');
+    let oFReader = new FileReader();
+    oFReader.readAsDataURL(images.files[0]);
+    oFReader.onload = function (oFREvent) {
+        previews.src = oFREvent.target.result;
+    }
+});

@@ -40,7 +40,7 @@
                                 <br>
                                 <div class="col-md-4">
                                     <label for="foto">Foto Truk
-                                        <img src="/asets/images/inputtruk.png" id="display-foto" alt="">
+                                        <img src="/asets/images/inputtruk.png" style="width:100%; object-fit:cover; border-radius:10px;" id="display-foto" alt="">
                                     </label>
                                     <input type="file" id="foto" style="visibility:hidden;">
                                 </div>
@@ -108,7 +108,8 @@
                                     <br>
                                     <div class="col-md-4">
                                         <label for="foto2">Foto Truk
-                                            <img src="/asets/images/inputtruk.png" alt="" id="display-foto2">
+                                            {{-- <label for="foto2"><div class="icon-edit" style="border-radius:50%; border:1px solid black; width:30px; height:30px; position:absolute; right:0; margin-right:15px; background-color:white;"><i class="fas fa-pencil-alt"></i></div></label> --}}
+                                            <img src="/asets/images/inputtruk.png" style="width:100%; object-fit:cover; border-radius:10px;" alt="" id="display-foto2" >
                                         </label>
                                         <input type="file" id="foto2" style="visibility:hidden;">
                                     </div>

@@ -264,6 +264,7 @@ $('.table').on('draw.dt',function(){
     $(".switch").on('click',function(){
         $(this).toggleClass("switchOn");
     });
-    $('.paginate_button.current').css({'background-color' : 'black', 'color' : 'white'});
+    // $('.current').addClass('pagin');
+    // $('.current').addClass('bg-dark');
 });
 
