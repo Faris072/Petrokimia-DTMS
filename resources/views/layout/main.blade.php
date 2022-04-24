@@ -30,10 +30,13 @@
     <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
     <!-- Data tabel -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.css" />
+    {{-- fancybox --}}
+    {{-- <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css"> --}}
 
     {{-- css --}}
     <link rel="stylesheet" href="/asets/css/main.css">
     <link rel="stylesheet" href="/asets/css/{{ $css }}">
+
     
 </head>
 <body>
@@ -53,7 +56,7 @@
             <br><br><br><br>
         </div>
     </div>    
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -61,7 +64,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- data tabel -->
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.js"></script>
-    
+    {{-- fancybox --}}
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
+
     <script src="/asets/js/main.js"></script>
     <script src="/asets/js/{{ $js }}"></script>
 </body>

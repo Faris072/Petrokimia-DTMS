@@ -49,6 +49,11 @@
             "no" : 10,
             "nama kota" : "Kota Surabaya",
             "status" : true
+        },
+        {
+            "no" : 11,
+            "nama kota" : "Kota Surabaya",
+            "status" : true
         }
     ]
 }
